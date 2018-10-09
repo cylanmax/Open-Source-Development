@@ -1,0 +1,29 @@
+body {
+	position: relative;
+	background-color: black;
+}
+
+h1{
+	color: red;
+}
+
+#title {
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+#main-content {
+	width: 700px;
+	margin: 0px auto 0px auto;
+}
+
+#general-display{
+	align-items: center;
+	text-align: center;
+}
+
+canvas {
+
+	border: 1px solid white;
+}

@@ -1,0 +1,29 @@
+{
+
+  "manifest_version": 2,
+  "name": "HangMan",
+  "version": "1.0",
+
+  "description": "This extension is a hangman game",
+  "icons": {
+    "48": "icon/noose.png"
+  },
+
+  "permissions": [
+    "storage",
+	"alarms",
+	"management"
+  ],
+
+
+  
+  "browser_action": {
+    "default_icon": {
+     "32" : "./icon/noose.png"
+    },
+    "default_title": "HangMan",
+    "default_popup": "./index.html"
+  }
+ }
+
+

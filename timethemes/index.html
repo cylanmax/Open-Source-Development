@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Time Themes</title>
+    <link href="./css/options.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <header>
+        <h1>
+            Time Themes
+        </h1>
+    </header>
+    <section>
+        <p>
+			<div id="word">
+				<label for="alarm-interval">Check the time every </label>
+			</div>
+            <input type="number" id="alarm-interval" min="1"/>
+            <label for="alarm-interval">minutes</label>
+
+            <input type="checkbox" id="check-startup-only" />
+            <label for="check-startup-only">Check only on start-up</label>
+        </p>
+
+        <p>
+            <button id="check-time-btn">Manually check time</button>
+        </p>
+
+        <p>
+            <label for="sunrise-time">Sunrise time: </label>
+            <input id="sunrise-time" type="time">
+			
+			<label for="noon-time">Noon time: </label>
+            <input id="noon-time" type="time">
+
+            <label for="sunset-time">Sunset time: </label>
+            <input id="sunset-time" type="time">
+        </p>
+
+        <p>
+            <label for="daytime-theme-list">Daytime theme: </label>
+
+            <select name="daytime-theme" id="daytime-theme-list">
+            </select>
+        </p>
+		<p>
+            <label for="noontime-theme-list">Noontime theme: </label>
+
+            <select name="noontime-theme" id="noontime-theme-list">
+            </select>
+        </p>
+        <p>
+            <label for="nighttime-theme-list">Nighttime theme: </label>
+
+            <select name="nighttime-theme" id="nighttime-theme-list">
+            </select>
+        </p>
+        <p>
+            <button id="reset-default-btn">Reset Settings to Default</button>
+        </p>
+    </section>
+    <script type="text/javascript" src="./js/common.js"></script>
+    <script type="text/javascript" src="./js/options.js"></script>
+</body>
+</html>

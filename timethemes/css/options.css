@@ -1,0 +1,18 @@
+body {
+    color: #2466a2;
+    font-family: Calibri;
+    font-size: 15px;
+
+    margin: 0;
+    padding: 0;
+}
+
+
+
+header {
+    padding: 0 5em;
+}
+
+section {
+    padding: 0.5em 5em;
+}

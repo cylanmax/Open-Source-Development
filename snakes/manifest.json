@@ -1,0 +1,29 @@
+{
+
+  "manifest_version": 2,
+  "name": "SnakeGame",
+  "version": "1.0",
+
+  "description": "This extension is a snake game",
+  "icons": {
+    "48": "./icon/snake-icon.png"
+  },
+
+  "permissions": [
+    "storage",
+	"alarms",
+	"management"
+  ],
+
+
+  
+  "browser_action": {
+    "default_icon": {
+     "32" : "./icon/snake-icon.png"
+    },
+    "default_title": "SnakeGame",
+    "default_popup": "./index.html"
+  }
+ }
+
+

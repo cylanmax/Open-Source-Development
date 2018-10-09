@@ -1,0 +1,33 @@
+{
+  "manifest_version": 2,
+  "name": "Time Themes - Themes Changer based on time",
+  "version": "1.0.3",
+  "description": "Automatically change Firefox's theme based on the time.",
+
+  "icons": {
+	"48" : "./icons/timethemes.png"
+  },
+
+  "permissions": [
+    "alarms",
+    "management",
+	"tabs"
+  ],
+
+  "background": {
+    "scripts": ["js/common.js", "js/background.js"]
+  },
+
+  "options_ui": {
+      "page": "./index.html"
+
+  },
+  
+   "browser_action": {
+    "default_icon": {
+     "32" : "./icons/timethemes.png"
+    },
+    "default_title": "TimeThemes",
+    "default_popup": "./index.html"
+  }
+}
